@@ -119,44 +119,47 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Built interactive UI components at IBM using React.js.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "E-commerce website",
+    desc: "Developed e-commerce site with React and Stripe integration for a client.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+  id: 3,
+  title: "Freelance SaaS Dashboard",
+  desc: "Developed a full-stack SaaS admin dashboard using React.js, Node.js, and MongoDB. Included charts, user authentication, and role-based access.",
+  className: "md:col-span-1",
+  thumbnail: "/exp3.svg",
+},
+{
+  id: 4,
+  title: "Landing Page Freelance",
+  desc: "Built a responsive landing page for a startup using React.",
+  className: "md:col-span-2",
+  thumbnail: "/exp4.svg",
+}
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/AbhilekhBhardwaj",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://twitter.com/AbhilekhBh28",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/abhilekh-bhardwaj-58a7a41b7/",
   },
 ];
