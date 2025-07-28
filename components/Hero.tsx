@@ -1,5 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
-import MagicButton from "./MagicButton";
+
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { BackgroundBeams } from "./ui/background-beams"; // ✅ USED
 
