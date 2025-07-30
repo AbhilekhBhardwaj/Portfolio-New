@@ -54,7 +54,8 @@ export const projects = [
     des: "End to End Apps and websites",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "/projects/fullstack",
+    slug: "fullstack",
   },
   {
     id: 2,
@@ -62,7 +63,8 @@ export const projects = [
     des: "List of frontend Landing pages",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "/projects/landing",
+    slug: "landing",
   },
   {
     id: 3,
@@ -70,7 +72,8 @@ export const projects = [
     des: "Some apps solving problems",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "/projects/functional",
+    slug: "functional",
   },
   {
     id: 4,
@@ -78,9 +81,11 @@ export const projects = [
     des: "Cool animations, effects, and creative components",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "/projects/creative",
+    slug: "creative",
   },
 ];
+
 
 export const companies = [
   {
