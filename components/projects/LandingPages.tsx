@@ -8,18 +8,18 @@ const projects = [
     id: 1,
     title: "Neo Landing Page",
     description: "Landing page for a AI Video editor website.",
-    image: "/projects/crypto-landing.png",
+    image: "/projects/neo.png",
     tech: ["/next.svg", "/tail.svg", "/ts.svg"],
     url: "https://neo-eta-mauve.vercel.app/",
   },
-  {
-    id: 2,
-    title: "Fitness Product Page",
-    description: "High-converting landing page for a fitness product.",
-    image: "/projects/fitness-landing.png",
-    tech: ["/re.svg", "/tail.svg", "/c.svg"],
-    url: "https://fitpage.example.com",
-  },
+//   {
+//     id: 2,
+//     title: "Fitness Product Page",
+//     description: "High-converting landing page for a fitness product.",
+//     image: "/projects/fitness-landing.png",
+//     tech: ["/re.svg", "/tail.svg", "/c.svg"],
+//     url: "https://fitpage.example.com",
+//   },
 ];
 
 export default function LandingPages() {

@@ -12,14 +12,14 @@ const projects = [
     tech: ["/re.svg", "/node.svg", "/mongo.svg"],
     url: "https://mern-task-app.example.com",
   },
-  {
-    id: 2,
-    title: "E-commerce Platform",
-    description: "Feature-rich store with cart, payments, and admin panel.",
-    image: "/projects/ecommerce.png",
-    tech: ["/next.svg", "/ts.svg", "/stripe.svg"],
-    url: "https://ecom-next.example.com",
-  },
+//   {
+//     id: 2,
+//     title: "E-commerce Platform",
+//     description: "Feature-rich store with cart, payments, and admin panel.",
+//     image: "/projects/ecommerce.png",
+//     tech: ["/next.svg", "/ts.svg", "/stripe.svg"],
+//     url: "https://ecom-next.example.com",
+//   },
 ];
 
 export default function FullstackProjects() {

@@ -8,17 +8,17 @@ const projects = [
     id: 1,
     title: "Rick and Morty",
     description: "Rick and morty styled landing page, page changes with a click",
-    image: "/projects/creative-portfolio.png",
+    image: "/projects/rick and morty.png",
     tech: ["/gsap.svg", "/re.svg", "/tail.svg"],
     url: "https://page-change-36xe.vercel.app/",
   },
   {
     id: 2,
-    title: "3D Model Showcase",
-    description: "Three.js powered site to showcase 3D objects with interaction.",
-    image: "/projects/3d-showcase.png",
-    tech: ["/three.svg", "/re.svg", "/css.svg"],
-    url: "https://3d-showcase.example.com",
+    title: "Beer landing page",
+    description: "landing page for a beer company using gsap, bottle moves in a path with scroll",
+    image: "/projects/bottle-scroll.png",
+    tech: ["/gsap.svg", "/re.svg", "/tail.svg"],
+    url: "https://bottle-scroll-5tji.vercel.app/",
   },
 ];
 

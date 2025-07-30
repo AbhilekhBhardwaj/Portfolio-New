@@ -71,7 +71,7 @@ export const projects = [
     title: "Functional Softwares",
     des: "Some apps solving problems",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/ts.svg", "/tail.svg"],
     link: "/projects/functional",
     slug: "functional",
   },
