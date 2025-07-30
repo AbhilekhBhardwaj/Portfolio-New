@@ -1,5 +1,3 @@
-// app/projects/[slug]/page.tsx
-
 export const dynamic = "force-dynamic";
 
 import FullstackProjects from "../../../components/projects/FullstackProjects";
@@ -8,13 +6,13 @@ import FunctionalSoftwares from "../../../components/projects/FunctionalSoftware
 import CreativeProjects from "../../../components/projects/CreativeProjects";
 
 type Props = {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
-export default function ProjectPage({ params }: Props) {
-  const { slug } = params;
+export default async function ProjectPage({ params }: Props) {
+  const { slug } = await params;
 
   switch (slug) {
     case "fullstack":
