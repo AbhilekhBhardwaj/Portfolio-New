@@ -1,17 +1,19 @@
-// /app/projects/[slug]/page.tsx
+// app/projects/[slug]/page.tsx
+
+export const dynamic = "force-dynamic";
 
 import FullstackProjects from "../../../components/projects/FullstackProjects";
 import LandingPages from "../../../components/projects/LandingPages";
 import FunctionalSoftwares from "../../../components/projects/FunctionalSoftwares";
 import CreativeProjects from "../../../components/projects/CreativeProjects";
 
-type PageProps = {
+type Props = {
   params: {
     slug: string;
   };
 };
 
-export default async function ProjectPage({ params }: PageProps) {
+export default function ProjectPage({ params }: Props) {
   const { slug } = params;
 
   switch (slug) {
