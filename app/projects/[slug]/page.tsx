@@ -5,8 +5,13 @@ import LandingPages from "../../../components/projects/LandingPages";
 import FunctionalSoftwares from "../../../components/projects/FunctionalSoftwares";
 import CreativeProjects from "../../../components/projects/CreativeProjects";
 
-// Use Next.js PageProps type for dynamic routes
-export default function ProjectPage({ params }: { params: { slug: string } }) {
+type PageProps = {
+  params: {
+    slug: string;
+  };
+};
+
+export default async function ProjectPage({ params }: PageProps) {
   const { slug } = params;
 
   switch (slug) {
