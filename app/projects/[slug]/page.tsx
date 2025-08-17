@@ -1,7 +1,7 @@
 export const dynamic = "force-dynamic";
 
 import FullstackProjects from "../../../components/projects/FullstackProjects";
-import LandingPages from "../../../components/projects/LandingPages";
+import UIProjects from "../../../components/projects/UIProjects";
 import FunctionalSoftwares from "../../../components/projects/FunctionalSoftwares";
 import CreativeProjects from "../../../components/projects/CreativeProjects";
 
@@ -17,8 +17,8 @@ export default async function ProjectPage({ params }: Props) {
   switch (slug) {
     case "fullstack":
       return <FullstackProjects />;
-    case "landing":
-      return <LandingPages />;
+    case "ui":
+      return <UIProjects />;
     case "functional":
       return <FunctionalSoftwares />;
     case "creative":

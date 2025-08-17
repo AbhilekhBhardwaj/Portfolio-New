@@ -59,12 +59,12 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Landing Pages",
-    des: "List of frontend Landing pages",
+    title: "UI Projects",
+    des: "List of frontend UI projects and landing pages",
     img: "/landing-pages.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/projects/landing",
-    slug: "landing",
+    link: "/projects/ui",
+    slug: "ui",
   },
   {
     id: 3,

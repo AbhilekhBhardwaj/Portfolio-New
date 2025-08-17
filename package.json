@@ -11,8 +11,6 @@
   "dependencies": {
     "@react-three/drei": "^10.6.1",
     "@react-three/fiber": "^9.3.0",
-    "@sentry/cli": "^2.50.0",
-    "@sentry/nextjs": "^9.40.0",
     "clsx": "^2.1.1",
     "dotted-map": "^2.2.3",
     "framer-motion": "^12.23.9",

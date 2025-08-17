@@ -12,20 +12,28 @@ const projects = [
     tech: ["/next.svg", "/tail.svg", "/ts.svg"],
     url: "https://neo-eta-mauve.vercel.app/",
   },
-//   {
-//     id: 2,
-//     title: "Fitness Product Page",
-//     description: "High-converting landing page for a fitness product.",
-//     image: "/projects/fitness-landing.png",
-//     tech: ["/re.svg", "/tail.svg", "/c.svg"],
-//     url: "https://fitpage.example.com",
-//   },
+  {
+    id: 2,
+    title: "E-commerce UI Dashboard",
+    description: "Modern admin dashboard with analytics and product management.",
+    image: "/projects/dashboard-ui.png",
+    tech: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
+    url: "https://dashboard-ui.example.com",
+  },
+  {
+    id: 3,
+    title: "Portfolio Showcase",
+    description: "Creative portfolio website with smooth animations and modern design.",
+    image: "/projects/portfolio-ui.png",
+    tech: ["/next.svg", "/tail.svg", "/gsap.svg", "/ts.svg"],
+    url: "https://portfolio-showcase.example.com",
+  },
 ];
 
-export default function LandingPages() {
+export default function UIProjects() {
   return (
     <section className="min-h-screen px-4 md:px-10 py-10 bg-[#0f0f0f] text-white">
-      <h1 className="text-3xl md:text-4xl font-bold mb-10">Landing Pages</h1>
+      <h1 className="text-3xl md:text-4xl font-bold mb-10">UI Projects</h1>
       <div className="grid md:grid-cols-2 gap-8">
         {projects.map((project) => (
           <motion.a
